@@ -1,0 +1,60 @@
+            .container {
+                width: 90%;
+                margin: auto;
+                overflow: hidden;
+                margin-top: 20px;
+            }
+            
+            .container ul {
+                padding: 0px;
+                margin: 0px;
+            }
+            
+            .container ul li {
+                float: left;
+                list-style: none;
+                width: 20%;
+                height: 300px;
+                background: red;
+                margin: 20px 0px 20px 55px;
+                border: 2px solid rgba(0, 255, 242, 0.719);
+                box-sizing: border-box;
+            }
+            
+            .container ul li:hover {
+                opacity: 0.8;
+            }
+            
+            .container ul li .bottom {
+                width: 100%;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                color: white;
+                font-size: 20px;
+            }
+            
+            #box {
+                background-color: rgba(255, 0, 0, 0.61);
+                position: relative;
+                width: 100%;
+                height: 100%;
+            }
+            
+            #box2 {
+                background-color: rgba(255, 0, 0, 0.7);
+                position: relative;
+                width: 100%;
+                height: 100%;
+            }
+            
+            body {
+                background-color: black;
+            }
+            
+            @media screen and (max-width:1250px) {
+                .container ul li {
+                    width: 40%;
+                    margin-left: 40px;
+                }
+            }
